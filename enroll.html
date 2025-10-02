@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="hero.css" />
+    <link rel="icon" href="./images/logo.webp" />
+  </head>
+  <body>
+    <header>
+      <h1>Quran Teaching</h1>
+      <div class="menu-toggle">☰</div>
+      <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="enroll.html"</a>Enroll</li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="enroll-hero">
+  <div class="enroll-card">
+    <h2>Start Your Quran Journey Today</h2>
+    <p>Join our online Quran classes. Learn Tajweed, Hifz, and Islamic studies with certified teachers.</p>
+    
+    <form id="enrollForm">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <input type="number" name="year" placeholder="Your Age / School Year" required min="5" max="100" />
+
+      <div class="gender-group">
+        <label><input type="radio" name="gender" value="Male" required /> Male</label>
+        <label><input type="radio" name="gender" value="Female" /> Female</label>
+      </div>
+
+      <select name="interest" required>
+        <option value="">Select your interest</option>
+        <option value="Quran Recitation">Quran Recitation</option>
+        <option value="Tajweed">Tajweed</option>
+        <option value="Hifz">Hifz</option>
+        <option value="Islamic Studies">Islamic Studies</option>
+      </select>
+
+      <textarea name="message" rows="3" placeholder="Any additional information"></textarea>
+
+      <button type="submit">Enroll Now</button>
+    </form>
+  </div>
+</section>
+
+
+
+    <footer class="footer">
+      <div class="footer-container">
+        <!-- About Section -->
+        <div class="footer-section">
+          <h3>About Quran Teaching</h3>
+          <p>
+            We provide online Quran learning with Tajweed, Hifz, Tafseer, and
+            Islamic studies. Our qualified teachers help students of all ages
+            connect with the Quran from anywhere in the world.
+          </p>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Courses</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Fee Structure</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Courses -->
+        <div class="footer-section">
+          <h3>Our Courses</h3>
+          <ul>
+            <li><a href="#">Noorani Qaida</a></li>
+            <li><a href="#">Quran with Tajweed</a></li>
+            <li><a href="#">Hifz-ul-Quran</a></li>
+            <li><a href="#">Tafseer & Translation</a></li>
+            <li><a href="#">Islamic Studies</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact Section -->
+        <div class="footer-section">
+          <h3>Contact Us</h3>
+          <p>Email: info@quranteaching.com</p>
+          <p>Address: London, United Kingdom</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2025 Quran Teaching | All Rights Reserved</p>
+      </div>
+    </footer>
+    <script src="main.js" defer></script>
+  </body>
+</html>
