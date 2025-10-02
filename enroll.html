@@ -13,7 +13,7 @@
       <div class="menu-toggle">☰</div>
       <nav>
         <ul>
-          <li><a href="home.html">Home</a></li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="courses.html">Courses</a></li>
           <li><a href="enroll.html"</a>Enroll</li>
@@ -27,28 +27,29 @@
     <h2>Start Your Quran Journey Today</h2>
     <p>Join our online Quran classes. Learn Tajweed, Hifz, and Islamic studies with certified teachers.</p>
     
-    <form id="enrollForm">
-      <input type="text" name="name" placeholder="Your Name" required />
-      <input type="email" name="email" placeholder="Your Email" required />
-      <input type="number" name="year" placeholder="Your Age / School Year" required min="5" max="100" />
+    <form id="enrollForm" action="/enroll" method="POST">
+  <input type="text" name="name" placeholder="Your Name" required />
+  <input type="email" name="email" placeholder="Your Email" required />
+  <input type="number" name="year" placeholder="Your Age / School Year" required min="5" max="100" />
 
-      <div class="gender-group">
-        <label><input type="radio" name="gender" value="Male" required /> Male</label>
-        <label><input type="radio" name="gender" value="Female" /> Female</label>
-      </div>
+  <div class="gender-group">
+    <label><input type="radio" name="gender" value="Male" required /> Male</label>
+    <label><input type="radio" name="gender" value="Female" /> Female</label>
+  </div>
 
-      <select name="interest" required>
-        <option value="">Select your interest</option>
-        <option value="Quran Recitation">Quran Recitation</option>
-        <option value="Tajweed">Tajweed</option>
-        <option value="Hifz">Hifz</option>
-        <option value="Islamic Studies">Islamic Studies</option>
-      </select>
+  <select name="interest" required>
+    <option value="">Select your interest</option>
+    <option value="Quran Recitation">Quran Recitation</option>
+    <option value="Tajweed">Tajweed</option>
+    <option value="Hifz">Hifz</option>
+    <option value="Islamic Studies">Islamic Studies</option>
+  </select>
 
-      <textarea name="message" rows="3" placeholder="Any additional information"></textarea>
+  <textarea name="message" rows="3" placeholder="Any additional information"></textarea>
 
-      <button type="submit">Enroll Now</button>
-    </form>
+  <button type="submit">Enroll Now</button>
+</form>
+
   </div>
 </section>
 
