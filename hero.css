@@ -33,7 +33,7 @@ nav ul {
 nav ul li {
   list-style: none;
 }
-nav ul li a { color: #fff; text-decoration: none; font-weight: 500;}
+nav ul li a { color: #fff; text-decoration: none; font-weight: 500;margin-left: 20px;margin-top: 10px;}
 .menu-toggle { display: none; cursor: pointer; font-size: 28px; z-index: 101; }
 
 /* Hero Section */
@@ -285,10 +285,8 @@ nav ul li a { color: #fff; text-decoration: none; font-weight: 500;}
   z-index: 2;
   color: #fff;
   max-width: 800px;
-  padding: 20px;
+  padding:  20px;
   background-color: rgba(0,0,0,0.7);
-  margin-top: 50%; 
-  transform: translateY(-50%); 
   box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
   border-radius: 30px;
 }
@@ -314,6 +312,7 @@ nav ul li a { color: #fff; text-decoration: none; font-weight: 500;}
   text-decoration: none;
   font-size: 1.1rem;
   transition: background 0.3s ease, color 0.3s ease, transform 0.3s ease;
+  margin-top:30px ;
 }
 
 .about-hero-content .btn:hover {
